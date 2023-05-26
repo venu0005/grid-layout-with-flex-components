@@ -26,27 +26,27 @@ body {
     font-size: 4rem;
   }
 
-  .emojis {
-    display: grid;
-    gap: 15px;
-  }
+.emojis {
+  display: grid;
+  gap: 15px;
+}
   
-  .emoji:nth-child(1) {
-    grid-row: 1;
-    grid-column: 1;
-  }
+.emoji:nth-child(1) {
+  grid-row: 1;
+  grid-column: 1;
+}
   
-  .emoji:nth-child(2) {
-    grid-row: 1;
-    grid-column: 3;
-  }
+.emoji:nth-child(2) {
+  grid-row: 1;
+  grid-column: 3;
+}
   
-  .emoji:nth-child(3) {
-    grid-row: 3;
-    grid-column: 1;
-  }
-  
-  .emoji:nth-child(4) {
-    grid-row: 3 ;
-    grid-column: 3;
-  }
+.emoji:nth-child(3) {
+  grid-row: 3;
+  grid-column: 1;
+}
+
+.emoji:nth-child(4) {
+  grid-row: 3 ;
+  grid-column: 3;
+}
