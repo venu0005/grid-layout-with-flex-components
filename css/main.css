@@ -28,33 +28,30 @@ body {
 
   .emojis {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     gap: 15px;
   }
-  
+
   .emojis .emoji {
     display: flex;
     flex-direction: column;
   }
   
   .emojis .emoji:nth-child(1) {
-    grid-column: 1 / span 1;
+    grid-row: 1;
+    grid-column: 1;
   }
   
   .emojis .emoji:nth-child(2) {
-    grid-column: 2 / span 2;
+    grid-row: 1;
+    grid-column: 3;
   }
   
   .emojis .emoji:nth-child(3) {
-    grid-column: 2 / span 2;
+    grid-row: 3;
+    grid-column: 1;
   }
   
   .emojis .emoji:nth-child(4) {
-    grid-column: 2 / span 2;
-  }
-  
-  .icon {
-    display: flex;
-    justify-content: center;
-    order: -1;
+    grid-row: 3 ;
+    grid-column: 3;
   }
